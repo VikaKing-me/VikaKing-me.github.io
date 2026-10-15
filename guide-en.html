@@ -1,0 +1,591 @@
+<title>Free Amelia Guide</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+  /* Layout: single-column readable guide, magenta + navy on warm paper */
+  :root{
+    --bg:#FBF6EF;
+    --surface:#FFFFFF;
+    --fg:#28313F;
+    --muted:#5E6675;
+    --magenta:#E6198C;
+    --navy:#20304F;
+    --pink-bg:#FCE7F2; --pink-bd:#E6198C;
+    --blue-bg:#E9F1FD; --blue-bd:#9FC0EF;
+    --cream-bg:#FCEFD8; --cream-bd:#E3A94E;
+    --border:rgba(32,48,79,0.12);
+    --shadow:0 6px 20px rgba(32,48,79,0.08);
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --bg:#15101B; --surface:#201826; --fg:#EFE7DD; --muted:#B2A7B8;
+    --magenta:#F17FC0; --navy:#CBB7E0;
+    --pink-bg:#2C1830; --pink-bd:#F17FC0;
+    --blue-bg:#182338; --blue-bd:#3C597F;
+    --cream-bg:#2E2516; --cream-bd:#B98A3D;
+    --border:rgba(239,231,221,0.14); --shadow:0 8px 24px rgba(0,0,0,0.45);
+    color-scheme:dark;
+  }}
+  :root[data-theme="dark"]{
+    --bg:#15101B; --surface:#201826; --fg:#EFE7DD; --muted:#B2A7B8;
+    --magenta:#F17FC0; --navy:#CBB7E0;
+    --pink-bg:#2C1830; --pink-bd:#F17FC0;
+    --blue-bg:#182338; --blue-bd:#3C597F;
+    --cream-bg:#2E2516; --cream-bd:#B98A3D;
+    --border:rgba(239,231,221,0.14); --shadow:0 8px 24px rgba(0,0,0,0.45);
+    color-scheme:dark;
+  }
+  body{background:var(--bg);color:var(--fg);
+    font-family:'Figtree',system-ui,-apple-system,sans-serif;line-height:1.6;
+    padding-block:32px 48px;
+    padding-left:max(16px,env(safe-area-inset-left,0px));
+    padding-right:max(16px,env(safe-area-inset-right,0px));}
+  .wrap{max-width:720px;margin:0 auto;}
+  header.cover{text-align:center;margin-bottom:10px;}
+  .eyebrow{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--navy);}
+  h1{font-family:'Fraunces',Georgia,serif;font-weight:700;color:var(--magenta);
+    font-size:clamp(30px,7vw,46px);line-height:1.05;margin:.3em 0 .25em;text-wrap:balance;}
+  .byline{color:var(--muted);font-size:15px;font-style:italic;margin:0;}
+  section{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+    box-shadow:var(--shadow);padding:22px 22px;margin-top:20px;}
+  h2{font-family:'Fraunces',Georgia,serif;font-weight:700;color:var(--magenta);
+    font-size:clamp(22px,4.5vw,28px);margin:0 0 4px;text-wrap:balance;}
+  h3{font-size:16px;font-weight:700;color:var(--navy);margin:18px 0 4px;}
+  p{margin:6px 0;}
+  ul{margin:6px 0 6px;padding-left:4px;list-style:none;}
+  li{position:relative;padding-left:20px;margin:5px 0;}
+  li::before{content:"";position:absolute;left:3px;top:.62em;width:6px;height:6px;
+    border-radius:50%;background:var(--magenta);}
+  a{color:var(--magenta);font-weight:600;word-break:break-word;}
+  .box{border-radius:12px;padding:14px 16px;margin:12px 0;border:1px solid var(--border);}
+  .box.pink{background:var(--pink-bg);border-color:var(--pink-bd);}
+  .box.blue{background:var(--blue-bg);border-color:var(--blue-bd);}
+  .box.cream{background:var(--cream-bg);border-color:var(--cream-bd);}
+  .box p{margin:3px 0;}
+  .box b{color:var(--fg);}
+  .lead{color:var(--magenta);font-weight:700;text-align:center;font-size:17px;margin:14px 0;}
+  .cta{display:block;text-align:center;background:var(--magenta);color:#fff;text-decoration:none;
+    font-weight:700;padding:14px 18px;border-radius:12px;margin:14px 0 4px;}
+  footer{text-align:center;color:var(--muted);font-size:12.5px;margin-top:26px;}
+  @media (prefers-reduced-motion:no-preference){a.cta{transition:transform .15s;}}
+</style>
+
+<div class="wrap">
+  <header class="cover">
+    <div class="eyebrow">Free Guide &middot; English Edition</div>
+    <h1>Amelia: everything you need to get started</h1>
+    <p class="byline">Your guide from Bean &amp; Pop, created by Mama Needs Caffeine &amp; Co.</p>
+  </header>
+
+  <section>
+    <div class="box pink"><p>In this guide you'll find: what Amelia is, why you get paid to do tasks,
+      the gear you need, how to record, examples of home and business tasks, payments, referrals, tips,
+      and answers to frequently asked questions.</p></div>
+    <p class="lead">Learn how Amelia works and how to start without paying a sign-up fee!</p>
+    <a class="cta" href="https://www.ameliachores.com/r/VICTAJQGGAKS" target="_blank" rel="noopener">Sign up for Amelia &rarr;</a>
+    <h3>Before you start</h3>
+    <ul>
+      <li>Always follow the current rules in the official Amelia app. Requirements, rates, tasks, and availability can change.</li>
+      <li>Recordings must be made with a compatible phone and an approved head strap, with the camera pointing down.</li>
+      <li>This guide is an independent resource; it is not an official communication from Amelia.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>What is Amelia?</h2>
+    <p>Amelia is an artificial-intelligence training platform. It needs recordings of everyday tasks so
+      that AI and robotics systems can learn how real-world activities, errands, and jobs are done.</p>
+    <h3>Residential tasks</h3>
+    <ul>
+      <li>Wash dishes; prepare food; fold laundry; clean and organize.</li>
+      <li>Pack items; work in the garden; care for pets.</li>
+      <li>Run errands or go shopping and other approved activities.</li>
+    </ul>
+    <h3>Commercial tasks</h3>
+    <ul>
+      <li>Planting and agriculture; device repairs.</li>
+      <li>Cleaning hotels and other workspaces.</li>
+      <li>Gardening and green-space maintenance.</li>
+      <li>Food preparation in commercial kitchens, where allowed.</li>
+    </ul>
+    <h3>How to start: 4 steps</h3>
+    <ul>
+      <li>Sign up: use the sign-up link and create your account.</li>
+      <li>Complete onboarding: review Amelia's email and instructions.</li>
+      <li>Record tasks: use the phone in the head strap while doing approved activities.</li>
+      <li>Get help: use the support and resources available in the app.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>What exactly are we doing?</h2>
+    <h3>1. What are these tasks for?</h3>
+    <p>We help train AI and robotics systems to perform real activities. A first-person view of the
+      hands completing everyday tasks is recorded. The data is used to train models that can understand
+      and perform those activities.</p>
+    <h3>2. Do I have to set aside extra time?</h3>
+    <p>One advantage is that you can record tasks that were already part of your routine, as long as
+      they follow Amelia's rules.</p>
+    <ul>
+      <li>Preparing meals, cleaning up after the kids, setting the table, or making the bed.</li>
+      <li>Buying groceries, putting the groceries away, cleaning and organizing the house.</li>
+      <li>Packing bags for a trip or a move.</li>
+    </ul>
+    <h3>3. How does it work?</h3>
+    <ul>
+      <li>Choose an eligible task in the app.</li>
+      <li>Place the phone in the head strap with the camera pointing down.</li>
+      <li>Complete the activity normally and follow the prompts.</li>
+      <li>Submit the recorded time for review and approval.</li>
+    </ul>
+    <h3>4. Why can it be a practical side gig?</h3>
+    <p>Instead of adding another activity to a full schedule, you can try to earn compensation for
+      household tasks you were already going to do. Payments depend on approved hours and current policies.</p>
+  </section>
+
+  <section>
+    <h2>What do I need to get started?</h2>
+    <h3>1. The basics</h3>
+    <ul>
+      <li>A compatible smartphone.</li>
+      <li>A head strap or mount that holds the phone centered on your forehead.</li>
+      <li>Choosing a compatible, safe model.</li>
+    </ul>
+    <h3>2. Two strap options</h3>
+    <ul>
+      <li><b>Option 1 (recommended):</b> <a href="https://amzn.to/4gUaehW" target="_blank" rel="noopener">amzn.to/4gUaehW</a></li>
+      <li><b>Option 2 (most comfortable by far):</b> <a href="https://amzn.to/4gUgmqo" target="_blank" rel="noopener">amzn.to/4gUgmqo</a></li>
+    </ul>
+    <h3>3. Phones listed in the guide</h3>
+    <ul>
+      <li>iPhone 11 to iPhone 17 (check exceptions and updates in the app).</li>
+      <li>Google Pixel 6 to Pixel 9.</li>
+      <li>Samsung Galaxy S21 to S26 (check exceptions and variants).</li>
+    </ul>
+    <div class="box cream"><p>Not allowed: holding the phone in your hand to record; using Meta glasses
+      or smart glasses; using a chest mount. The camera must point down from the forehead.</p></div>
+    <h3>4. When can I record?</h3>
+    <p>Tasks may be available at different times of day. If a task shows as available and you meet its
+      rules, you can do it.</p>
+    <h3>5. How to avoid a rejected recording</h3>
+    <ul>
+      <li>Keep the camera pointed down and your hands visible most of the time.</li>
+      <li>Make sure the camera and mount are positioned well and the lens is clean.</li>
+      <li>Avoid recording other people and follow Amelia's privacy rules.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Gear and reimbursement</h2>
+    <p>The phone records what you do from your point of view. A strap placed on your forehead keeps your
+      hands free and helps produce a more stable recording.</p>
+    <h3>Allowed and not-allowed straps</h3>
+    <ul>
+      <li>Yes: a compatible head strap that holds the phone securely.</li>
+      <li>No: Meta glasses, smart glasses, or chest straps.</li>
+    </ul>
+    <div class="box pink"><p><b>Strap reimbursement:</b> The information provided in the guide indicates a
+      $15 reimbursement after completing 5 approved hours. Confirm eligibility and the exact conditions
+      with Amelia before buying.</p></div>
+    <h3>Links to buy a strap</h3>
+    <ul>
+      <li><b>Option 1 (recommended):</b> <a href="https://amzn.to/4gUaehW" target="_blank" rel="noopener">amzn.to/4gUaehW</a></li>
+      <li><b>Option 2 (most comfortable by far):</b> <a href="https://amzn.to/4gUgmqo" target="_blank" rel="noopener">amzn.to/4gUgmqo</a></li>
+    </ul>
+    <h3>Bean &amp; Pop tip</h3>
+    <p>If your budget allows, a sturdier strap can offer better comfort. The most important thing is that
+      it's compatible with the current requirements.</p>
+  </section>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+  /* Layout: single-column readable guide, magenta + navy on warm paper */
+  :root{
+    --bg:#FBF6EF;
+    --surface:#FFFFFF;
+    --fg:#28313F;
+    --muted:#5E6675;
+    --magenta:#E6198C;
+    --navy:#20304F;
+    --pink-bg:#FCE7F2; --pink-bd:#E6198C;
+    --blue-bg:#E9F1FD; --blue-bd:#9FC0EF;
+    --cream-bg:#FCEFD8; --cream-bd:#E3A94E;
+    --border:rgba(32,48,79,0.12);
+    --shadow:0 6px 20px rgba(32,48,79,0.08);
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --bg:#15101B; --surface:#201826; --fg:#EFE7DD; --muted:#B2A7B8;
+    --magenta:#F17FC0; --navy:#CBB7E0;
+    --pink-bg:#2C1830; --pink-bd:#F17FC0;
+    --blue-bg:#182338; --blue-bd:#3C597F;
+    --cream-bg:#2E2516; --cream-bd:#B98A3D;
+    --border:rgba(239,231,221,0.14); --shadow:0 8px 24px rgba(0,0,0,0.45);
+    color-scheme:dark;
+  }}
+  :root[data-theme="dark"]{
+    --bg:#15101B; --surface:#201826; --fg:#EFE7DD; --muted:#B2A7B8;
+    --magenta:#F17FC0; --navy:#CBB7E0;
+    --pink-bg:#2C1830; --pink-bd:#F17FC0;
+    --blue-bg:#182338; --blue-bd:#3C597F;
+    --cream-bg:#2E2516; --cream-bd:#B98A3D;
+    --border:rgba(239,231,221,0.14); --shadow:0 8px 24px rgba(0,0,0,0.45);
+    color-scheme:dark;
+  }
+  body{background:var(--bg);color:var(--fg);
+    font-family:'Figtree',system-ui,-apple-system,sans-serif;line-height:1.6;
+    padding-block:32px 48px;
+    padding-left:max(16px,env(safe-area-inset-left,0px));
+    padding-right:max(16px,env(safe-area-inset-right,0px));}
+  .wrap{max-width:720px;margin:0 auto;}
+  header.cover{text-align:center;margin-bottom:10px;}
+  .eyebrow{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--navy);}
+  h1{font-family:'Fraunces',Georgia,serif;font-weight:700;color:var(--magenta);
+    font-size:clamp(30px,7vw,46px);line-height:1.05;margin:.3em 0 .25em;text-wrap:balance;}
+  .byline{color:var(--muted);font-size:15px;font-style:italic;margin:0;}
+  section{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+    box-shadow:var(--shadow);padding:22px 22px;margin-top:20px;}
+  h2{font-family:'Fraunces',Georgia,serif;font-weight:700;color:var(--magenta);
+    font-size:clamp(22px,4.5vw,28px);margin:0 0 4px;text-wrap:balance;}
+  h3{font-size:16px;font-weight:700;color:var(--navy);margin:18px 0 4px;}
+  p{margin:6px 0;}
+  ul{margin:6px 0 6px;padding-left:4px;list-style:none;}
+  li{position:relative;padding-left:20px;margin:5px 0;}
+  li::before{content:"";position:absolute;left:3px;top:.62em;width:6px;height:6px;
+    border-radius:50%;background:var(--magenta);}
+  a{color:var(--magenta);font-weight:600;word-break:break-word;}
+  .box{border-radius:12px;padding:14px 16px;margin:12px 0;border:1px solid var(--border);}
+  .box.pink{background:var(--pink-bg);border-color:var(--pink-bd);}
+  .box.blue{background:var(--blue-bg);border-color:var(--blue-bd);}
+  .box.cream{background:var(--cream-bg);border-color:var(--cream-bd);}
+  .box p{margin:3px 0;}
+  .box b{color:var(--fg);}
+  .lead{color:var(--magenta);font-weight:700;text-align:center;font-size:17px;margin:14px 0;}
+  .cta{display:block;text-align:center;background:var(--magenta);color:#fff;text-decoration:none;
+    font-weight:700;padding:14px 18px;border-radius:12px;margin:14px 0 4px;}
+  footer{text-align:center;color:var(--muted);font-size:12.5px;margin-top:26px;}
+  @media (prefers-reduced-motion:no-preference){a.cta{transition:transform .15s;}}
+</style>
+
+<div class="wrap">
+  <header class="cover">
+    <div class="eyebrow">Free Guide &middot; English Edition</div>
+    <h1>Amelia: everything you need to get started</h1>
+    <p class="byline">Your guide from Bean &amp; Pop, created by Mama Needs Caffeine &amp; Co.</p>
+  </header>
+
+  <section>
+    <div class="box pink"><p>In this guide you'll find: what Amelia is, why you get paid to do tasks,
+      the gear you need, how to record, examples of home and business tasks, payments, referrals, tips,
+      and answers to frequently asked questions.</p></div>
+    <p class="lead">Learn how Amelia works and how to start without paying a sign-up fee!</p>
+    <a class="cta" href="https://www.ameliachores.com/r/VICTAJQGGAKS" target="_blank" rel="noopener">Sign up for Amelia &rarr;</a>
+    <h3>Before you start</h3>
+    <ul>
+      <li>Always follow the current rules in the official Amelia app. Requirements, rates, tasks, and availability can change.</li>
+      <li>Recordings must be made with a compatible phone and an approved head strap, with the camera pointing down.</li>
+      <li>This guide is an independent resource; it is not an official communication from Amelia.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>What is Amelia?</h2>
+    <p>Amelia is an artificial-intelligence training platform. It needs recordings of everyday tasks so
+      that AI and robotics systems can learn how real-world activities, errands, and jobs are done.</p>
+    <h3>Residential tasks</h3>
+    <ul>
+      <li>Wash dishes; prepare food; fold laundry; clean and organize.</li>
+      <li>Pack items; work in the garden; care for pets.</li>
+      <li>Run errands or go shopping and other approved activities.</li>
+    </ul>
+    <h3>Commercial tasks</h3>
+    <ul>
+      <li>Planting and agriculture; device repairs.</li>
+      <li>Cleaning hotels and other workspaces.</li>
+      <li>Gardening and green-space maintenance.</li>
+      <li>Food preparation in commercial kitchens, where allowed.</li>
+    </ul>
+    <h3>How to start: 4 steps</h3>
+    <ul>
+      <li>Sign up: use the sign-up link and create your account.</li>
+      <li>Complete onboarding: review Amelia's email and instructions.</li>
+      <li>Record tasks: use the phone in the head strap while doing approved activities.</li>
+      <li>Get help: use the support and resources available in the app.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>What exactly are we doing?</h2>
+    <h3>1. What are these tasks for?</h3>
+    <p>We help train AI and robotics systems to perform real activities. A first-person view of the
+      hands completing everyday tasks is recorded. The data is used to train models that can understand
+      and perform those activities.</p>
+    <h3>2. Do I have to set aside extra time?</h3>
+    <p>One advantage is that you can record tasks that were already part of your routine, as long as
+      they follow Amelia's rules.</p>
+    <ul>
+      <li>Preparing meals, cleaning up after the kids, setting the table, or making the bed.</li>
+      <li>Buying groceries, putting the groceries away, cleaning and organizing the house.</li>
+      <li>Packing bags for a trip or a move.</li>
+    </ul>
+    <h3>3. How does it work?</h3>
+    <ul>
+      <li>Choose an eligible task in the app.</li>
+      <li>Place the phone in the head strap with the camera pointing down.</li>
+      <li>Complete the activity normally and follow the prompts.</li>
+      <li>Submit the recorded time for review and approval.</li>
+    </ul>
+    <h3>4. Why can it be a practical side gig?</h3>
+    <p>Instead of adding another activity to a full schedule, you can try to earn compensation for
+      household tasks you were already going to do. Payments depend on approved hours and current policies.</p>
+  </section>
+
+  <section>
+    <h2>What do I need to get started?</h2>
+    <h3>1. The basics</h3>
+    <ul>
+      <li>A compatible smartphone.</li>
+      <li>A head strap or mount that holds the phone centered on your forehead.</li>
+      <li>Choosing a compatible, safe model.</li>
+    </ul>
+    <h3>2. Two strap options</h3>
+    <ul>
+      <li><b>Option 1 (recommended):</b> <a href="https://amzn.to/4gUaehW" target="_blank" rel="noopener">amzn.to/4gUaehW</a></li>
+      <li><b>Option 2 (most comfortable by far):</b> <a href="https://amzn.to/4gUgmqo" target="_blank" rel="noopener">amzn.to/4gUgmqo</a></li>
+    </ul>
+    <h3>3. Phones listed in the guide</h3>
+    <ul>
+      <li>iPhone 11 to iPhone 17 (check exceptions and updates in the app).</li>
+      <li>Google Pixel 6 to Pixel 9.</li>
+      <li>Samsung Galaxy S21 to S26 (check exceptions and variants).</li>
+    </ul>
+    <div class="box cream"><p>Not allowed: holding the phone in your hand to record; using Meta glasses
+      or smart glasses; using a chest mount. The camera must point down from the forehead.</p></div>
+    <h3>4. When can I record?</h3>
+    <p>Tasks may be available at different times of day. If a task shows as available and you meet its
+      rules, you can do it.</p>
+    <h3>5. How to avoid a rejected recording</h3>
+    <ul>
+      <li>Keep the camera pointed down and your hands visible most of the time.</li>
+      <li>Make sure the camera and mount are positioned well and the lens is clean.</li>
+      <li>Avoid recording other people and follow Amelia's privacy rules.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Gear and reimbursement</h2>
+    <p>The phone records what you do from your point of view. A strap placed on your forehead keeps your
+      hands free and helps produce a more stable recording.</p>
+    <h3>Allowed and not-allowed straps</h3>
+    <ul>
+      <li>Yes: a compatible head strap that holds the phone securely.</li>
+      <li>No: Meta glasses, smart glasses, or chest straps.</li>
+    </ul>
+    <div class="box pink"><p><b>Strap reimbursement:</b> The information provided in the guide indicates a
+      $15 reimbursement after completing 5 approved hours. Confirm eligibility and the exact conditions
+      with Amelia before buying.</p></div>
+    <h3>Links to buy a strap</h3>
+    <ul>
+      <li><b>Option 1 (recommended):</b> <a href="https://amzn.to/4gUaehW" target="_blank" rel="noopener">amzn.to/4gUaehW</a></li>
+      <li><b>Option 2 (most comfortable by far):</b> <a href="https://amzn.to/4gUgmqo" target="_blank" rel="noopener">amzn.to/4gUgmqo</a></li>
+    </ul>
+    <h3>Bean &amp; Pop tip</h3>
+    <p>If your budget allows, a sturdier strap can offer better comfort. The most important thing is that
+      it's compatible with the current requirements.</p>
+  </section>
+
+  <section>
+    <h2>Where do I make the recordings?</h2>
+    <div class="box pink"><p>Tasks are recorded inside the Minute app; they are not posted to your social media.</p></div>
+    <h3>1. Download the app</h3><p>Download Minute as directed by Amelia.</p>
+    <h3>2. Press &ldquo;Record&rdquo;</h3><p>Open the app and start recording following its instructions.</p>
+    <h3>3. Do your task</h3><p>Place the phone on your forehead, pointing down, and complete an approved task.</p>
+    <h3>Recording length</h3>
+    <ul>
+      <li>Minimum length indicated: 1 minute.</li>
+      <li>Maximum length per clip indicated: 30 minutes.</li>
+      <li>You can record more than one session to complete a task, following the app's rules.</li>
+    </ul>
+    <h3>Camera and privacy</h3>
+    <ul>
+      <li>The phone must go in a head strap, with the camera pointing down.</li>
+      <li>Children must not appear in the video. If they come near, make sure they aren't recorded.</li>
+      <li>Do not use chest mounts or Meta glasses.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Is background noise allowed?</h2>
+    <div class="box pink"><p>Normal household noise is fine! The systems can learn to operate in everyday
+      environments with real sounds.</p></div>
+    <h3>Examples of normal sounds</h3>
+    <ul>
+      <li>TV or music.</li>
+      <li>Children playing, as long as they don't appear in the recording.</li>
+      <li>Dogs barking or other animal noises.</li>
+      <li>Conversations, within applicable privacy limits.</li>
+      <li>Vacuum, dishwasher, washer, or dryer.</li>
+      <li>Fans, air conditioning, and general household noise.</li>
+    </ul>
+    <p>Do your everyday activities in a normal setting. Check the app for special situations and avoid
+      recording other people's private information.</p>
+  </section>
+
+  <section>
+    <h2>Payments: frequently asked questions</h2>
+    <h3>1. How much do they pay me?</h3>
+    <div class="box blue">
+      <p><b>Updated monthly rates:</b></p>
+      <p>0&ndash;99 approved hours in the month: $10 per hour.</p>
+      <p>100 approved hours or more in the month: $11 per hour.</p>
+    </div>
+    <p>The rate is based on approved hours and the current monthly policy. Check the app for the most
+      current information.</p>
+    <h3>2. When do the levels reset?</h3>
+    <p>At the start of each month the monthly pay level resets. Hours accumulated for certain processes
+      may carry over according to the official rules, though the hourly level starts over.</p>
+    <h3>3. How do the increments work?</h3>
+    <p>In the guide's information, earnings are handled in 5-hour increments. Check the rules and
+      approved hours in your account.</p>
+    <h3>4. When do I request payment?</h3>
+    <p>The guide indicates that payments can be requested on Mondays and are normally sent on Fridays,
+      subject to review and meeting the requirements. A minimum of $100 in task earnings is indicated to
+      request payment.</p>
+    <h3>5. Are there other ways to earn?</h3>
+    <p>Amelia may offer challenges, bonuses, or incentives subject to change. Always confirm the current
+      conditions before counting on that income.</p>
+    <h3>How does the pay structure work?</h3>
+    <ul>
+      <li>Level 1: 0&ndash;99 hours per month = $10/hour.</li>
+      <li>Level 2: 100 hours or more per month = $11/hour.</li>
+    </ul>
+    <div class="box pink"><p>Important: pay levels, bonus conditions, referral terms, and app rules can
+      change. The official app prevails.</p></div>
+  </section>
+
+  <section>
+    <h2>Residential task list</h2>
+    <h3>Patio and garden</h3>
+    <ul>
+      <li>Arrange patio furniture; clean gutters; rake or blow leaves.</li>
+      <li>Plant or pull weeds; clean the pool; spread compost or fertilizer.</li>
+      <li>Stack firewood; sweep the porch; prune shrubs; water plants; pressure-wash exterior surfaces.</li>
+    </ul>
+    <h3>Home projects and maintenance</h3>
+    <ul>
+      <li>Assemble furniture; hang pictures or mirrors; put up curtains.</li>
+      <li>Put up seasonal decorations; change light bulbs or batteries.</li>
+      <li>Replace a showerhead; adjust hinges or cabinets; water indoor plants.</li>
+    </ul>
+    <h3>Bedroom, kitchen, and bathroom</h3>
+    <ul>
+      <li>Tidy the bedroom, change sheets, and make the bed.</li>
+      <li>Clean the kitchen; take out the trash; put away groceries; make coffee or tea; set the table.</li>
+      <li>Load or unload the dishwasher; prepare or cook food.</li>
+      <li>Clean the toilet and tidy the bathroom.</li>
+    </ul>
+    <h3>Laundry, vehicle, and organization</h3>
+    <ul>
+      <li>Fold, hang, air-dry, hand-wash, or put clothes in the washer.</li>
+      <li>Check or add engine oil; change a tire; check or add air.</li>
+      <li>Clean the car; organize the garage; pack or unpack the car for a trip.</li>
+      <li>Tidy the desk; put gas in the car; go shopping.</li>
+    </ul>
+    <h3>Pets and interactive tasks</h3>
+    <ul>
+      <li>Clean the litter box, feed a pet, and walk the dog.</li>
+      <li>Interactive tasks can change; check the current list in Minute.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Commercial task list</h2>
+    <p>These are categories and examples from the original guide. Only record at a business with the
+      necessary authorization and if the task is approved in the app.</p>
+    <h3>Agriculture and nurseries</h3>
+    <p>Plant, harvest, and sort crops; greenhouse and nursery work; landscaping and grounds maintenance.</p>
+    <h3>Hotels and hospitality</h3>
+    <p>Clean rooms and bathrooms; change bed linens; laundry; restock supplies; clean common areas; pool
+      maintenance and luggage handling.</p>
+    <h3>Restaurants and kitchens</h3>
+    <p>Cook, prepare food, clean the kitchen area, take out trash or recycling, wash dishes, disinfect
+      surfaces, and restock supplies.</p>
+    <h3>Retail stores</h3>
+    <p>Restock shelves; arrange displays; prepare orders; pack and label; restock supplies and clean
+      common areas and restrooms.</p>
+    <h3>Offices and commercial cleaning</h3>
+    <p>Clean offices, vacuum carpets, dust, clean windows and glass, empty trash, restock supplies, and
+      disinfect high-touch areas.</p>
+    <h3>Automotive, construction, and warehouses</h3>
+    <p>Dry and polish cars; clean interiors; vacuum vehicles; wash cars, change oil, or inflate tires.
+      Tidy job sites, install materials, paint, repair, load and unload trucks, prepare orders, pack and
+      organize inventory.</p>
+    <h3>Events, maintenance, and devices</h3>
+    <p>Set up event spaces, move chairs and tables, clean halls and carpets, general maintenance, repair
+      devices, assemble small appliances, test equipment, and organize parts.</p>
+  </section>
+
+  <section>
+    <h2>Do you have your own business?</h2>
+    <p>According to the business program described in the original guide, a company could receive
+      compensation when its staff record approved tasks at work, in addition to continuing their usual
+      operations.</p>
+    <h3>How the program is described</h3>
+    <p>The guide indicates a possible payment of $10 per employee per approved hour of recording. The
+      owner would decide how to distribute that amount, subject to the official conditions of the
+      business program.</p>
+    <div class="box blue">
+      <p><b>Example from the guide</b></p>
+      <p>If 3 employees each record 5 approved hours in a week:</p>
+      <p>3 &times; 5 = 15 hours.</p>
+      <p>15 &times; $10 = $150 potential for that week, depending on the applicable conditions.</p>
+    </div>
+    <h3>Which businesses could it work for?</h3>
+    <p>Cleaning services, landscaping, restaurants, salons, and other companies that already do eligible
+      work. Permission and compliance with all program rules are required.</p>
+  </section>
+
+  <section>
+    <h2>How do payments work?</h2>
+    <h3>Sunday: hours deadline</h3>
+    <p>The original guide notes that the hours you want to include in the week must be completed before
+      the Sunday deadline. Check Amelia for the exact time and the applicable time zone.</p>
+    <h3>Monday: request your payment</h3>
+    <p>If you meet the $100 minimum in task earnings and the other requirements, you can request payment
+      on Monday.</p>
+    <h3>Monday to Friday: review</h3>
+    <p>Submitted hours are reviewed for accuracy, compliance with requirements, and absence of
+      fraudulent activity.</p>
+    <h3>Friday: payment sent</h3>
+    <p>The guide indicates that payments are sent on Fridays via PayPal or Tipalti, depending on
+      availability and account setup.</p>
+    <h3>Minimum withdrawal and referrals</h3>
+    <ul>
+      <li>Minimum task earnings to request payment: $100.</li>
+      <li>Minimum indicated to withdraw referral earnings: $50.</li>
+      <li>If you haven't reached the minimum yet, eligible earnings may remain in your account per the program terms.</li>
+    </ul>
+    <h3>Bonuses and challenges</h3>
+    <p>Bonus and challenge conditions can change. Check the communications and the official app for
+      current promotions.</p>
+  </section>
+
+  <section>
+    <h2>Referrals: share and earn</h2>
+    <p>You can share the opportunity with other people through your personal invitation link.</p>
+    <h3>How they work</h3>
+    <ul>
+      <li>The guide indicates you could earn 10% of your direct referrals' earnings.</li>
+      <li>The referred person keeps their own earnings.</li>
+      <li>The regular accumulated commission may have a cap of $250 per person.</li>
+    </ul>
+    <div class="box pink"><p><b>Example from the guide:</b> If a referred person earns $100 per week and
+      keeps that level for four weeks, their example total would be $400, and 10% would equal $40 in
+      commissions for you, subject to the program rules.</p></div>
+    <h3>&ldquo;Captain&rdquo; program</h3>
+    <p>The original guide indicates that a person with more than 10 referrals who work 10 hours could
+      request &ldquo;Captain&rdquo; status. This status may include commissions without the regular cap
+      and additional incentives; confirm the current requirements and percentages before promoting them.</p>
+    <a class="cta" href="https://www.ameliachores.com/r/VICTAJQGGAKS" target="_blank" rel="noopener">Sign up for Amelia with this link &rarr;</a>
+  </section>
+
+  <footer>Free Amelia Guide &middot; English Edition &middot; Bean &amp; Pop</footer>
+</div>
